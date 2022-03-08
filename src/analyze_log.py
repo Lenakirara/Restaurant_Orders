@@ -41,7 +41,7 @@ def arnaldo_most_ordered_hamburger(orders):
 def joao_dishes_never_order(orders, joao_orders):
     not_orders = {order[1] for order in orders if order[1] not in joao_orders}
     return not_orders
-    
+
 
 def days_joao_never_goes(days, joao_days):
     never_goes = {day[2] for day in days if day[2] not in joao_days}
