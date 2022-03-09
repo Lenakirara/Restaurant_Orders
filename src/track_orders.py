@@ -57,19 +57,3 @@ class TrackOrders:
     # 'get_order_frequency_per_costumer'
     def get_order_frequency_per_costumer(self, param1, param2):
         ...
-
-
-# if __name__ == "__main__":
-#     tracker = TrackOrders()
-#     orders = [
-#         ["arnaldo", "hamburguer", "terça-feira"],
-#         ["joao", "hamburguer", "quinta-feira"],
-#         ["joao", "hamburguer", "domingo"],
-#         ["joao", "hamburguer", "domingo"],
-#         ["maria", "pizza", "terça-feira"],
-#         ["maria", "misto-quente", "terça-feira"],
-#     ]
-#     for i in orders:
-#         tracker.add_new_order(i[0], i[1], i[2])
-#     print(tracker.get_busiest_day())
-#     print(tracker.get_least_busy_day())

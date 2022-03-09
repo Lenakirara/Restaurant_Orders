@@ -65,38 +65,3 @@ def analyze_log(path_to_file):
 if __name__ == "__main__":
     # print(get_orders_csv_file('data/orders_1.csv'))
     print(analyze_log("data/orders_1.csv"))
-
-    # orders = [
-    #     ["maria", "hamburguer", "terça-feira"],
-    #     ["maria", "pizza", "terça-feira"],
-    #     ["maria", "pizza", "terça-feira"],
-    #     ["maria", "hamburguer", "terça-feira"],
-    #     ["maria", "hamburguer", "terça-feira"],
-    # ]
-    # print(maria_favorite_dish(orders))
-
-    # hamburger = [
-    #     ["arnaldo", "hamburguer", "terça-feira"],
-    #     ["maria", "pizza", "terça-feira"],
-    #     ["arnaldo", "pizza", "terça-feira"],
-    #     ["maria", "hamburguer", "terça-feira"],
-    # ]
-    # print(arnaldo_most_ordered_hamburger(hamburger))
-
-    # order = [
-    #     ["arnaldo", "hamburguer", "terça-feira"],
-    #     ["maria", "pizza", "terça-feira"],
-    #     ["maria", "coxinha", "terça-feira"],
-    #     ["maria", "misto-quente", "terça-feira"],
-    #     ["joao", "hamburguer", "terça-feira"],
-    #     ["joao", "hamburguer", "terça-feira"],
-    # ]
-    # print(joao_dishes_never_order(order, 'hamburguer'))
-
-    # days = [
-    #     ["joao", "hamburguer", "terça-feira"],
-    #     ["joao", "hamburguer", "quarta-feira"],
-    #     ["joao", "hamburguer", "domingo"],
-    #     ["maria", "misto-quente", "sabado"],
-    # ]
-    # print(days_joao_never_goes(days, 'domingo'))
