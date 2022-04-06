@@ -65,7 +65,7 @@ if __name__ == "__main__":
     # ]
     # print(maria_favorite_dish(orders))
 
-    # Teste quantidade hamburger pedido pelo João
+    # Teste quantidade hamburger pedido por Arnaldo
     # hamburger = [
     #     ["arnaldo", "hamburguer", "terça-feira"],
     #     ["maria", "pizza", "terça-feira"],
